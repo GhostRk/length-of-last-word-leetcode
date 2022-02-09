@@ -1,0 +1,9 @@
+class Solution {
+    public int lengthOfLastWord(String s) {
+        
+      String[] arrOfs=s.split(" ",0); //made an array of words in sentence
+      String res=arrOfs[arrOfs.length-1]; //take the last word of sentence
+    return res.length(); //return length of last word
+        
+    }
+}
